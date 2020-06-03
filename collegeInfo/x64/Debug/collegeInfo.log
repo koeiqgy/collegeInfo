@@ -1,0 +1,14 @@
+﻿生成启动时间为 2020/6/1 9:40:31。
+     1>项目“C:\workSpace\vs2015\collegeInfo\collegeInfo\collegeInfo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\App\tool\vs2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt stdinfo.c
+         stdinfo.c
+     1>c:\workspace\vs2015\collegeinfo\collegeinfo\stdinfo.c(81): warning C4244: “=”: 从“my_ulonglong”转换到“int”，可能丢失数据
+       Link:
+         C:\App\tool\vs2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workSpace\vs2015\collegeInfo\x64\Debug\collegeInfo.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\App\tool\mysql\mysql-8.0.15-winx64\lib" "C:\App\tool\mysql\mysql-8.0.15-winx64\lib\libmysql.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\workSpace\vs2015\collegeInfo\x64\Debug\collegeInfo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\workSpace\vs2015\collegeInfo\x64\Debug\collegeInfo.lib" /MACHINE:X64 x64\Debug\stdinfo.obj
+         collegeInfo.vcxproj -> C:\workSpace\vs2015\collegeInfo\x64\Debug\collegeInfo.exe
+     1>已完成生成项目“C:\workSpace\vs2015\collegeInfo\collegeInfo\collegeInfo.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.80

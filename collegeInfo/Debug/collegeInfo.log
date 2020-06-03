@@ -1,0 +1,24 @@
+﻿生成启动时间为 2020/5/28 14:38:02。
+     1>项目“C:\workSpace\vs2015\collegeInfo\collegeInfo\collegeInfo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\App\tool\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt stdinfo.c
+         stdinfo.c
+     1>c:\workspace\vs2015\collegeinfo\collegeinfo\stdinfo.c(76): warning C4244: “=”: 从“my_ulonglong”转换到“int”，可能丢失数据
+       Link:
+         C:\App\tool\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workSpace\vs2015\collegeInfo\Debug\collegeInfo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\workSpace\vs2015\collegeInfo\Debug\collegeInfo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\workSpace\vs2015\collegeInfo\Debug\collegeInfo.lib" /MACHINE:X86 Debug\stdinfo.obj
+     1>stdinfo.obj : error LNK2019: 无法解析的外部符号 _mysql_num_rows@4，该符号在函数 _query_sql 中被引用
+     1>stdinfo.obj : error LNK2019: 无法解析的外部符号 _mysql_num_fields@4，该符号在函数 _query_sql 中被引用
+     1>stdinfo.obj : error LNK2019: 无法解析的外部符号 _mysql_init@4，该符号在函数 _query_sql 中被引用
+     1>stdinfo.obj : error LNK2019: 无法解析的外部符号 _mysql_real_connect@32，该符号在函数 _query_sql 中被引用
+     1>stdinfo.obj : error LNK2019: 无法解析的外部符号 _mysql_query@8，该符号在函数 _query_sql 中被引用
+     1>stdinfo.obj : error LNK2019: 无法解析的外部符号 _mysql_store_result@4，该符号在函数 _query_sql 中被引用
+     1>stdinfo.obj : error LNK2019: 无法解析的外部符号 _mysql_fetch_row@4，该符号在函数 _query_sql 中被引用
+     1>stdinfo.obj : error LNK2019: 无法解析的外部符号 _mysql_fetch_field@4，该符号在函数 _query_sql 中被引用
+     1>stdinfo.obj : error LNK2019: 无法解析的外部符号 _mysql_close@4，该符号在函数 _query_sql 中被引用
+     1>libmysql.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+     1>C:\workSpace\vs2015\collegeInfo\Debug\collegeInfo.exe : fatal error LNK1120: 9 个无法解析的外部命令
+     1>已完成生成项目“C:\workSpace\vs2015\collegeInfo\collegeInfo\collegeInfo.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.85
