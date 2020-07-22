@@ -18,9 +18,18 @@
     <ClInclude Include="stdinfo.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="dbrun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdinfo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ctest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dbrun.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
