@@ -1,14 +1,21 @@
-﻿生成启动时间为 2020/6/1 9:40:31。
+﻿生成启动时间为 2020/7/22 15:07:32。
      1>项目“C:\workSpace\vs2015\collegeInfo\collegeInfo\collegeInfo.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\App\tool\vs2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt stdinfo.c
-         stdinfo.c
-     1>c:\workspace\vs2015\collegeinfo\collegeinfo\stdinfo.c(81): warning C4244: “=”: 从“my_ulonglong”转换到“int”，可能丢失数据
+         C:\App\tool\vs2015\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 8.0\include" /ZI /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt dbrun.c
+         dbrun.c
+     1>c:\workspace\vs2015\collegeinfo\collegeinfo\dbrun.c(11): warning C4020: “query_result”: 实参太多
+     1>c:\workspace\vs2015\collegeinfo\collegeinfo\dbrun.c(16): warning C4029: 声明的形参表不同于定义
+     1>c:\workspace\vs2015\collegeinfo\collegeinfo\dbrun.c(24): warning C4244: “初始化”: 从“my_ulonglong”转换到“int”，可能丢失数据
+     1>c:\workspace\vs2015\collegeinfo\collegeinfo\dbrun.c(90): warning C4244: “=”: 从“my_ulonglong”转换到“int”，可能丢失数据
+     1>c:\workspace\vs2015\collegeinfo\collegeinfo\dbrun.c(132): warning C4090: “初始化”: 不同的“const”限定符
+     1>c:\workspace\vs2015\collegeinfo\collegeinfo\dbrun.c(57): warning C4716: “query_result”: 必须返回一个值
        Link:
-         C:\App\tool\vs2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workSpace\vs2015\collegeInfo\x64\Debug\collegeInfo.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\App\tool\mysql\mysql-8.0.15-winx64\lib" "C:\App\tool\mysql\mysql-8.0.15-winx64\lib\libmysql.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\workSpace\vs2015\collegeInfo\x64\Debug\collegeInfo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\workSpace\vs2015\collegeInfo\x64\Debug\collegeInfo.lib" /MACHINE:X64 x64\Debug\stdinfo.obj
+         C:\App\tool\vs2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workSpace\vs2015\collegeInfo\x64\Debug\collegeInfo.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MySQL\MySQL Server 8.0\lib" "C:\App\tool\mysql\mysql-8.0.15-winx64\lib\libmysql.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\workSpace\vs2015\collegeInfo\x64\Debug\collegeInfo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\workSpace\vs2015\collegeInfo\x64\Debug\collegeInfo.lib" /MACHINE:X64 x64\Debug\ctest.obj
+         x64\Debug\dbrun.obj
+         x64\Debug\stdinfo.obj
          collegeInfo.vcxproj -> C:\workSpace\vs2015\collegeInfo\x64\Debug\collegeInfo.exe
      1>已完成生成项目“C:\workSpace\vs2015\collegeInfo\collegeInfo\collegeInfo.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:00.80
+已用时间 00:00:00.73
